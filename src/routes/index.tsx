@@ -14,7 +14,7 @@ import heroLab from "@/assets/hero-lab.jpg";
 import learner1 from "@/assets/learner-1.jpg";
 import learner2 from "@/assets/learner-2.jpg";
 import learner3 from "@/assets/learner-3.jpg";
-import strathmoreLogo from "@/assets/strathmore-logo.webp.asset.json";
+import nextgenLogo from "@/assets/nextgen-logo.png.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -93,8 +93,8 @@ function Index() {
       <nav className="flex items-center justify-between border-b border-primary/5 bg-card px-8 py-6">
         <div className="flex items-center gap-3">
           <img
-            src={strathmoreLogo.url}
-            alt="Strathmore University logo"
+            src={nextgenLogo.url}
+            alt="Next Gen Learning logo"
             className="h-10 w-auto"
           />
           <span className="text-xl font-bold tracking-tight">Next Gen Learning</span>
@@ -317,8 +317,8 @@ function Index() {
           <div>
             <div className="mb-4 flex items-center gap-3">
               <img
-                src={strathmoreLogo.url}
-                alt="Strathmore University logo"
+                src={nextgenLogo.url}
+                alt="Next Gen Learning logo"
                 loading="lazy"
                 className="h-10 w-auto"
               />
