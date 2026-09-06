@@ -23,7 +23,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "The Next Gen Learning (the Strathmore Computer Literacy Centre) offers affordable computer literacy courses, robotics and AI taster modules, and corporate IT training for Madaraka and Nairobi South. Register and pay via M-Pesa.",
+          "Next Gen Learning, the Strathmore Computer Literacy Centre, offers affordable computer literacy courses, robotics and AI taster modules, and corporate IT training for Madaraka and Nairobi South. Register and pay via M-Pesa.",
       },
       {
         property: "og:title",
