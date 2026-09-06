@@ -19,15 +19,15 @@ import strathmoreLogo from "@/assets/strathmore-logo.webp.asset.json";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Strathmore Computer Literacy Centre — Digital Skills for Nairobi" },
+      { title: "Next Gen Learning — Digital Skills for Nairobi" },
       {
         name: "description",
         content:
-          "The Strathmore Computer Literacy Centre (SCLC) offers affordable computer literacy courses, robotics and AI taster modules, and corporate IT training for Madaraka and Nairobi South. Register and pay via M-Pesa.",
+          "The Next Gen Learning (the Strathmore Computer Literacy Centre) offers affordable computer literacy courses, robotics and AI taster modules, and corporate IT training for Madaraka and Nairobi South. Register and pay via M-Pesa.",
       },
       {
         property: "og:title",
-        content: "Strathmore Computer Literacy Centre — Digital Skills for Nairobi",
+        content: "Next Gen Learning — Digital Skills for Nairobi",
       },
       {
         property: "og:description",
@@ -151,7 +151,7 @@ function Index() {
           <div className="relative">
             <img
               src={heroLab}
-              alt="Kenyan learners training together in the SCLC computer lab"
+              alt="Kenyan learners training together in the Next Gen Learning computer lab"
               width={1200}
               height={1000}
               className="aspect-[4/5] w-full rounded-2xl object-cover shadow-2xl outline-1 -outline-offset-1 outline-black/5"
@@ -256,7 +256,7 @@ function Index() {
               quote and we will respond within two working days.
             </p>
             <a
-              href="mailto:corporate@sclc.ac.ke"
+              href="mailto:corporate@nextgenlearning.co.ke"
               className="inline-block border-2 border-primary px-6 py-3 text-xs font-semibold uppercase tracking-widest transition-colors hover:bg-primary hover:text-primary-foreground"
             >
               Request a Corporate Quote
@@ -298,7 +298,7 @@ function Index() {
           </div>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <a
-              href="mailto:register@sclc.ac.ke"
+              href="mailto:register@nextgenlearning.co.ke"
               className="rounded-xl bg-primary px-10 py-5 font-bold text-primary-foreground transition-all hover:bg-accent"
             >
               Register Online
@@ -345,12 +345,12 @@ function Index() {
               <Phone className="size-4 text-accent" /> +254 700 000 000 (SMS / WhatsApp)
             </p>
             <p className="flex items-center gap-2">
-              <Mail className="size-4 text-accent" /> hello@sclc.ac.ke
+              <Mail className="size-4 text-accent" /> hello@nextgenlearning.co.ke
             </p>
           </div>
         </div>
         <div className="mx-auto mt-10 flex max-w-7xl flex-col items-center justify-between gap-4 border-t border-border pt-8 text-xs font-bold uppercase tracking-widest text-muted-foreground md:flex-row">
-          <span>© 2026 Strathmore Computer Literacy Centre</span>
+          <span>© 2026 Next Gen Learning</span>
           <div className="flex gap-8">
             <a href="#courses" className="hover:text-accent">Courses</a>
             <a href="#corporate" className="hover:text-accent">Partner With Us</a>
