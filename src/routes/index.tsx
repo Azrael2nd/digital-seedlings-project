@@ -14,19 +14,20 @@ import heroLab from "@/assets/hero-lab.jpg";
 import learner1 from "@/assets/learner-1.jpg";
 import learner2 from "@/assets/learner-2.jpg";
 import learner3 from "@/assets/learner-3.jpg";
+import strathmoreLogo from "@/assets/strathmore-logo.webp.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Strathmore Computer Literacy Centre — Digital Skills for Nairobi" },
+      { title: "Next Gen Learning — Digital Skills for Nairobi" },
       {
         name: "description",
         content:
-          "The Strathmore Computer Literacy Centre (SCLC) offers affordable computer literacy courses, robotics and AI taster modules, and corporate IT training for Madaraka and Nairobi South. Register and pay via M-Pesa.",
+          "Next Gen Learning, the Strathmore Computer Literacy Centre, offers affordable computer literacy courses, robotics and AI taster modules, and corporate IT training for Madaraka and Nairobi South. Register and pay via M-Pesa.",
       },
       {
         property: "og:title",
-        content: "Strathmore Computer Literacy Centre — Digital Skills for Nairobi",
+        content: "Next Gen Learning — Digital Skills for Nairobi",
       },
       {
         property: "og:description",
@@ -90,9 +91,13 @@ function Index() {
 
       {/* Navigation */}
       <nav className="flex items-center justify-between border-b border-primary/5 bg-card px-8 py-6">
-        <div className="flex items-center gap-2 text-2xl font-bold tracking-tighter">
-          <div className="size-8 rounded-sm bg-accent" />
-          SCLC
+        <div className="flex items-center gap-3">
+          <img
+            src={strathmoreLogo.url}
+            alt="Strathmore University logo"
+            className="h-10 w-auto"
+          />
+          <span className="text-xl font-bold tracking-tight">Next Gen Learning</span>
         </div>
         <div className="hidden items-center gap-8 text-sm font-medium uppercase tracking-wide md:flex">
           <a href="#courses" className="transition-colors hover:text-accent">
@@ -146,7 +151,7 @@ function Index() {
           <div className="relative">
             <img
               src={heroLab}
-              alt="Kenyan learners training together in the SCLC computer lab"
+              alt="Kenyan learners training together in the Next Gen Learning computer lab"
               width={1200}
               height={1000}
               className="aspect-[4/5] w-full rounded-2xl object-cover shadow-2xl outline-1 -outline-offset-1 outline-black/5"
@@ -251,7 +256,7 @@ function Index() {
               quote and we will respond within two working days.
             </p>
             <a
-              href="mailto:corporate@sclc.ac.ke"
+              href="mailto:corporate@nextgenlearning.co.ke"
               className="inline-block border-2 border-primary px-6 py-3 text-xs font-semibold uppercase tracking-widest transition-colors hover:bg-primary hover:text-primary-foreground"
             >
               Request a Corporate Quote
@@ -293,7 +298,7 @@ function Index() {
           </div>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <a
-              href="mailto:register@sclc.ac.ke"
+              href="mailto:register@nextgenlearning.co.ke"
               className="rounded-xl bg-primary px-10 py-5 font-bold text-primary-foreground transition-all hover:bg-accent"
             >
               Register Online
@@ -310,13 +315,19 @@ function Index() {
       <footer className="border-t border-primary/5 bg-card px-8 py-12">
         <div className="mx-auto grid max-w-7xl gap-10 md:grid-cols-3">
           <div>
-            <div className="mb-4 flex items-center gap-2 text-xl font-bold tracking-tighter">
-              <div className="size-6 rounded-sm bg-accent" />
-              SCLC
+            <div className="mb-4 flex items-center gap-3">
+              <img
+                src={strathmoreLogo.url}
+                alt="Strathmore University logo"
+                loading="lazy"
+                className="h-10 w-auto"
+              />
+              <span className="text-lg font-bold tracking-tight">Next Gen Learning</span>
             </div>
             <p className="max-w-xs text-sm text-muted-foreground">
-              The Strathmore Computer Literacy Centre — bridging the gap between
-              potential and opportunity through accessible digital skills.
+              Next Gen Learning — the Strathmore Computer Literacy Centre, bridging
+              the gap between potential and opportunity through accessible digital
+              skills.
             </p>
           </div>
           <div className="space-y-2 text-sm text-muted-foreground">
@@ -334,12 +345,12 @@ function Index() {
               <Phone className="size-4 text-accent" /> +254 700 000 000 (SMS / WhatsApp)
             </p>
             <p className="flex items-center gap-2">
-              <Mail className="size-4 text-accent" /> hello@sclc.ac.ke
+              <Mail className="size-4 text-accent" /> hello@nextgenlearning.co.ke
             </p>
           </div>
         </div>
         <div className="mx-auto mt-10 flex max-w-7xl flex-col items-center justify-between gap-4 border-t border-border pt-8 text-xs font-bold uppercase tracking-widest text-muted-foreground md:flex-row">
-          <span>© 2026 Strathmore Computer Literacy Centre</span>
+          <span>© 2026 Next Gen Learning</span>
           <div className="flex gap-8">
             <a href="#courses" className="hover:text-accent">Courses</a>
             <a href="#corporate" className="hover:text-accent">Partner With Us</a>
