@@ -14,6 +14,7 @@ import heroLab from "@/assets/hero-lab.jpg";
 import learner1 from "@/assets/learner-1.jpg";
 import learner2 from "@/assets/learner-2.jpg";
 import learner3 from "@/assets/learner-3.jpg";
+import strathmoreLogo from "@/assets/strathmore-logo.webp.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
