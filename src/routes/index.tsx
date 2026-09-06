@@ -90,9 +90,13 @@ function Index() {
 
       {/* Navigation */}
       <nav className="flex items-center justify-between border-b border-primary/5 bg-card px-8 py-6">
-        <div className="flex items-center gap-2 text-2xl font-bold tracking-tighter">
-          <div className="size-8 rounded-sm bg-accent" />
-          SCLC
+        <div className="flex items-center gap-3">
+          <img
+            src={strathmoreLogo.url}
+            alt="Strathmore University logo"
+            className="h-10 w-auto"
+          />
+          <span className="text-xl font-bold tracking-tight">Next Gen Learning</span>
         </div>
         <div className="hidden items-center gap-8 text-sm font-medium uppercase tracking-wide md:flex">
           <a href="#courses" className="transition-colors hover:text-accent">
@@ -310,13 +314,19 @@ function Index() {
       <footer className="border-t border-primary/5 bg-card px-8 py-12">
         <div className="mx-auto grid max-w-7xl gap-10 md:grid-cols-3">
           <div>
-            <div className="mb-4 flex items-center gap-2 text-xl font-bold tracking-tighter">
-              <div className="size-6 rounded-sm bg-accent" />
-              SCLC
+            <div className="mb-4 flex items-center gap-3">
+              <img
+                src={strathmoreLogo.url}
+                alt="Strathmore University logo"
+                loading="lazy"
+                className="h-10 w-auto"
+              />
+              <span className="text-lg font-bold tracking-tight">Next Gen Learning</span>
             </div>
             <p className="max-w-xs text-sm text-muted-foreground">
-              The Strathmore Computer Literacy Centre — bridging the gap between
-              potential and opportunity through accessible digital skills.
+              Next Gen Learning — the Strathmore Computer Literacy Centre, bridging
+              the gap between potential and opportunity through accessible digital
+              skills.
             </p>
           </div>
           <div className="space-y-2 text-sm text-muted-foreground">
